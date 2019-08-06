@@ -19,15 +19,19 @@ driver.implicitly_wait(60)
 
 #add record
 driver.find_element_by_xpath("//a[@class='addrecord btn btn-info']").click()
+driver.implicitly_wait(60)
 
 #Restaurant
 driver.find_element_by_id("venue_name").send_keys("Paradise")
+driver.implicitly_wait(60)
 
 #Description
 driver.find_element_by_id("venue_description").send_keys("Good restaurant")
+driver.implicitly_wait(60)
 
 #Address
 driver.find_element_by_id("venue_address_by_user").send_keys("Hyderabad")
+driver.implicitly_wait(60)
 
 #Zip
 driver.find_element_by_id("zip_code").send_keys("1234")
@@ -58,6 +62,7 @@ driver.implicitly_wait(60)
 
 #manager
 driver.find_element_by_id("store_manager").send_keys("Robert")
+driver.implicitly_wait(60)
 
 #manager email
 driver.find_element_by_id("store_manager_email").send_keys("robert@gamil.com")

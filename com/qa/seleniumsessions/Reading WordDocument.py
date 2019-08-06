@@ -13,5 +13,3 @@ def ReadingTextDocuments(fileName):
 
 
 print(ReadingTextDocuments("‪C:\\Users\\Nxt\\PycharmProjects\\PythonSeleniumsessions\\PDF file\\ATM  Requirements.docx"))
-
-

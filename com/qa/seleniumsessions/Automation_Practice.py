@@ -11,3 +11,4 @@ driver.find_element_by_id("email").send_keys("ra123@gmail.com")
 driver.find_element_by_class_name("is_required validate account_input form-control").send_keys("Minds123")
 driver.find_element_by_xpath("//p[@class='submit']//span[1]").click()
 
+
