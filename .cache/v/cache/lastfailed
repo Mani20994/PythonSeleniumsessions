@@ -1,0 +1,5 @@
+{
+  "com/qa/seleniumsessions/test_1.py::TestParallel::test_one": true,
+  "com/qa/seleniumsessions/test_parallel.py::TestParallel::test_one": true,
+  "com/qa/seleniumsessions/test_parallel.py::TestParallel::test_three": true
+}
